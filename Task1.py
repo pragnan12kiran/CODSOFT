@@ -2,7 +2,7 @@ import string
 import random
 
 def password_generator(length):
-    all_characters = string.ascii_letters + string.digits + string.punctuation
+    all_characters = string.ascii_letters + string.digits
     if length < 6:
         print("Password length must be at least 6 characters")
         return
